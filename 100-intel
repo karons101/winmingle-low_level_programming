@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Generates the output filename by replacing the .c extension with .s
+OUTPUT_FILE=$(echo "$CFILE" | sed 's/\.c$/.s/')
+
+# Compile with -S (stop after assembly) and -masm=intel (use Intel syntax)
+gcc -S -masm=intel "$CFILE" -o "$OUTPUT_FILE"
