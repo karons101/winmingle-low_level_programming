@@ -1,0 +1,3 @@
+#!/bin/bash
+OUTPUT_FILE=$(echo "$CFILE" | sed 's/\.c$/.s/')
+gcc -S "$CFILE" -o "$OUTPUT_FILE"
