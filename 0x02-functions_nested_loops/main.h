@@ -1,0 +1,45 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+/* Function prototypes */
+
+/* Task 0 */
+int _putchar(char c);
+
+/* Task 1 */
+void print_alphabet(void);
+
+/* Task 2 */
+void print_alphabet_x10(void);
+
+/* Task 3 */
+int _islower(int c);
+
+/* Task 4 */
+int _isalpha(int c);
+
+/* Task 5 */
+int print_sign(int n);
+
+/* Task 6 */
+int _abs(int n);
+
+/* Task 7 */
+int print_last_digit(int);
+
+/* Task 8 */
+void jack_bauer(void);
+
+/* Task 9 */
+void times_table(void);
+
+/* Task 10 */
+int add(int a, int b);
+
+/* Task 11 */
+void print_to_98(int n);
+
+/* Task 12 (100-times_table) */
+void print_times_table(int n);
+
+#endif /* MAIN_H */
